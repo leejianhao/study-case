@@ -1,0 +1,5 @@
+package dianshang.greencloud.user.service;
+
+public interface IUserService {
+
+}

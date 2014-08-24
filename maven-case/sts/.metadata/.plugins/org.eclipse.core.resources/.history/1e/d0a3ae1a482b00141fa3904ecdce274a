@@ -1,0 +1,37 @@
+package dianshang.greencloud.user.service;
+
+import static org.easymock.EasyMock.*;
+import static org.easymock.EasyMock.verify;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import dianshang.greencloud.user.dao.IUserDao;
+import dianshang.greencloud.user.model.User;
+
+public class UserServiceTest {
+	private IUserDao userDao;
+	private IUserService userService;
+	private User baseUser;
+	
+	@Before
+	public void setUp() {
+		userDao = createStrictMock(IUserDao.class);
+		userService = new UserService(userDao);
+		baseUser = new User("admin", "123", "admin");
+	}
+	
+	@Test
+	public void testAdd() {
+		userDao.add(baseUser);	
+		expectLastCall();
+		replay(userDao);
+		userService.add(user);
+	}
+	
+	@After
+	public void tearDown() {
+		verify(userDao);
+	}
+}

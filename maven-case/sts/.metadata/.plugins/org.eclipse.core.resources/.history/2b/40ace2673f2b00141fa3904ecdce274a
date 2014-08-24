@@ -1,0 +1,29 @@
+package dianshang.greencloud.user.dao;
+
+import org.hibernate.Session;
+
+import dianshang.greencloud.user.model.User;
+import dianshang.greencloud.user.util.HibernateUtil;
+
+public class UserDao implements IUserDao {
+
+	public void add(User user) {
+		Session session = null;
+		try {
+			session.beginTransaction();
+			
+			session.getTransaction().commit();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			HibernateUtil.close(session);
+		}
+		
+	}
+
+	public User loadByUsername(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+E:\study\maven\study-case\maven-case\sts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1879765639.index
+\user-web\src\main\resources

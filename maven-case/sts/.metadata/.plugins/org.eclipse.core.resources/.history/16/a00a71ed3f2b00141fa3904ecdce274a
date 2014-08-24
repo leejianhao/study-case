@@ -1,0 +1,5 @@
+package dianshang.greencloud.dao;
+
+public class UserDaoTest {
+	private IUserDao userDao;
+}

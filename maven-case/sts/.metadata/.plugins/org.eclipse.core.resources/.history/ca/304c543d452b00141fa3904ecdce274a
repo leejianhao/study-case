@@ -1,0 +1,20 @@
+package dianshang.greencloud.user.service;
+
+import dianshang.greencloud.user.dao.IUserDao;
+import dianshang.greencloud.user.model.User;
+
+public class UserService implements IUserService {
+	private IUserDao userDao;
+	
+	public UserService(IUserDao userDao) {
+		super();
+	}
+	public void add(User user) {
+
+	}
+
+	public User loadByUsername(String username) {
+		return null;
+	}
+
+}

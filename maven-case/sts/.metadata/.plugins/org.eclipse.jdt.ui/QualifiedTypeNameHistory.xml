@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.imageio.spi.ServiceRegistry"/>
+<fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistryBuilder"/>
+<fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistry"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="dianshang.greencloud.user.util.HibernateUtil"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="java.lang.VerifyError"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+</qualifiedTypeNameHistroy>

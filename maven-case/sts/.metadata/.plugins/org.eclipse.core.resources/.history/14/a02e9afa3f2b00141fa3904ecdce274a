@@ -1,0 +1,11 @@
+package dianshang.greencloud.dao;
+
+import dianshang.greencloud.user.dao.IUserDao;
+
+public class UserDaoTest {
+	private IUserDao userDao;
+	
+	public void setUp() {
+		userDao = new UserDao();
+	}
+}

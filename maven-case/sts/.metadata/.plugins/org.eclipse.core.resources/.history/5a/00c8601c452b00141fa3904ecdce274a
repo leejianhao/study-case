@@ -1,0 +1,17 @@
+package dianshang.greencloud.user.service;
+
+import dianshang.greencloud.user.model.User;
+
+public class UserService implements IUserService {
+
+	public void add(User user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public User loadByUsername(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

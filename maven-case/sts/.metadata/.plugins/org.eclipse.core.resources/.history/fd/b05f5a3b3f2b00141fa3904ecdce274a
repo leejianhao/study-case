@@ -1,0 +1,17 @@
+package dianshang.greencloud.user.dao;
+
+import dianshang.greencloud.user.model.User;
+
+public class UserDao implements IUserDao {
+
+	public void add(User user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public User loadByUsername(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

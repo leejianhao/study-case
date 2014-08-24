@@ -1,0 +1,7 @@
+package dianshang.greencloud.user.service;
+
+public class UserServiceTest {
+	private IUserDao userDao;
+	private IUserService userService;
+	
+}
