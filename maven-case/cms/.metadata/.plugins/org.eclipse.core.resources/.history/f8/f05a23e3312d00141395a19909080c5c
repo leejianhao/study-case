@@ -1,0 +1,5 @@
+package org.leejianhao.basic.model;
+
+public class Pager {
+
+}

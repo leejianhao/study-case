@@ -41,6 +41,7 @@
 			<item value="greencloud.user"/>
 		</list>
 		<list key="package">
+			<item value="dianshang.greencloud.user"/>
 			<item value="dianshang.greencloud.user.user_web"/>
 			<item value="foo"/>
 		</list>

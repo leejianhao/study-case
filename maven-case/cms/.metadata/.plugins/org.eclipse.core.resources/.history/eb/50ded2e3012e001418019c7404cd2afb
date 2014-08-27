@@ -1,0 +1,12 @@
+package org.leejianhao.basic.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="t_user")
+public class User {
+	private int id;
+	private String username;
+	
+}

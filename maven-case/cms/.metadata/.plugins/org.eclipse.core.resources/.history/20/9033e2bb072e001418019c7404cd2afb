@@ -1,0 +1,5 @@
+package org.leejianhao.basic.dao;
+
+public class UserDao<User> extends BaseDao<User> implements IBaseDao<User> {
+
+}

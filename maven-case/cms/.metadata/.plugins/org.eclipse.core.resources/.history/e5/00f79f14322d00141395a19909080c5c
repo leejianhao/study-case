@@ -1,0 +1,22 @@
+package org.leejianhao.basic.model;
+
+import java.util.List;
+
+/**
+ * 分页对象
+ * @author leejianaho
+ *
+ * @param <T>
+ */
+public class Pager<T> {
+	/**
+	 * 分页大小
+	 */
+	private int size;
+	/**
+	 * 分页的起始页
+	 */
+	private int offset;
+	private int total;
+	private List<T> dates;
+}

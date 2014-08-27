@@ -4874,3 +4874,23 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2014-08-24 22:05:30,310 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2014-08-24 22:05:30,312 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2014-08-24 22:05:30,312 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\sts\user-web\src\test\resources
+2014-08-26 22:43:03,632 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-26 22:43:03,742 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-26 22:43:07,708 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing commands
+2014-08-26 22:43:07,747 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - 1 of 1 SQL statements executed successfully
+2014-08-26 22:43:07,751 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-26 22:43:07,753 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-26 22:43:07,902 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing file: C:\Users\ADMINI~1\AppData\Local\Temp\init-table.1507436887sql
+2014-08-26 22:43:09,061 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - 2 of 2 SQL statements executed successfully
+2014-08-26 22:43:14,558 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-26 22:43:14,558 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\sts\user-log\src\main\resources
+2014-08-26 22:43:14,560 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-26 22:43:14,560 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\sts\user-log\src\test\resources
+2014-08-26 22:43:14,790 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-26 22:43:14,791 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\sts\user-service\src\main\resources
+2014-08-26 22:43:14,792 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-26 22:43:14,792 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\sts\user-service\src\test\resources
+2014-08-26 22:43:16,353 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-26 22:43:16,353 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-26 22:43:16,355 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-26 22:43:16,355 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\sts\user-web\src\test\resources

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:aop="http://www.springframework.org/schema/aop"  
+    xmlns:tx="http://www.springframework.org/schema/tx"  
+    xsi:schemaLocation="  
+        http://www.springframework.org/schema/beans  
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://www.springframework.org/schema/tx  
+        http://www.springframework.org/schema/tx/spring-tx.xsd  
+        http://www.springframework.org/schema/aop  
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+	
+	<!--配置数据源-->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"       
+        destroy-method="close">       
+	    <property name="driverClassName" value="com.mysql.jdbc.Driver" />      
+	    <property name="url" value="jdbc:mysql://localhost:3306/cms_test" />      
+	    <property name="username" value="root" />      
+	    <property name="password" value="lee" /> 
+	    <property name="initialSize" value="1" />     
+	    <property name="minIdle" value="1" />     
+	    <property name="maxActive" value="100" />     
+	    <property name="maxIdle" value="20" />     
+	    <property name="maxWait" value="1000" />     
+	</bean>  
+	
+	<!--
+	hibernate4不使用hibernate3的AnnotationSessionFactoryBean配置sessionFactory
+	-->
+	<bean id="sessionFactory"
+	  class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+	    <property name="dataSource" ref="dataSource" />
+	    <property name="packagesToScan" value="org.leejianhao.basic.model" />
+	    <property name="hibernateProperties">
+	        <props>
+	         <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+	         <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+	         <prop key="hibernate.format_sql">${hibernate.format_sql}</prop>
+	        </props>
+	    </property>
+	</bean>
+	
+</beans>        

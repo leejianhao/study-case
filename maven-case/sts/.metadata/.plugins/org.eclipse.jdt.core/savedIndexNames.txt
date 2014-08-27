@@ -8,13 +8,12 @@ INDEX VERSION 1.126+E:\study\maven\study-case\maven-case\sts\.metadata\.plugins\
 2651558368.index
 576119179.index
 2691659909.index
-1488007755.index
 1787812772.index
 3743572397.index
 1239787584.index
 4055839868.index
-3705437898.index
 413831009.index
+3705437898.index
 308017548.index
 681855080.index
 101033431.index

@@ -1,0 +1,52 @@
+package org.leejianhao.basic.model;
+
+/**
+ * 用来传递列表对象的ThreadLocal
+ * @author leejianhao
+ *
+ */
+public class SystemContext {
+	/**
+	 * 分页的大小
+	 */
+	private static ThreadLocal<Integer> pageSize;
+	/**
+	 * 分页的起始页
+	 */
+	private static ThreadLocal<Integer> pageOffset;
+	/**
+	 * 列表的排序字段
+	 */
+	private static ThreadLocal<String> sort;
+	/**
+	 * 列表的排序方式
+	 */
+	private static ThreadLocal<String> order;
+	
+	public static ThreadLocal<Integer> getPageSize() {
+		return pageSize;
+	}
+	public static void setPageSize(ThreadLocal<Integer> pageSize) {
+		SystemContext.pageSize = pageSize;
+	}
+	public static ThreadLocal<Integer> getPageOffset() {
+		return pageOffset;
+	}
+	public static void setPageOffset(ThreadLocal<Integer> pageOffset) {
+		SystemContext.pageOffset = pageOffset;
+	}
+	public static ThreadLocal<String> getSort() {
+		return sort;
+	}
+	public static void setSort(ThreadLocal<String> sort) {
+		SystemContext.sort = sort;
+	}
+	public static ThreadLocal<String> getOrder() {
+		return order;
+	}
+	public static void setOrder(ThreadLocal<String> order) {
+		SystemContext.order = order;
+	}
+	
+	
+}

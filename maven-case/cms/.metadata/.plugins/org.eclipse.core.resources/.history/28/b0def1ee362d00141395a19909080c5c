@@ -1,0 +1,175 @@
+/**
+ * 
+ */
+package org.leejianhao.basic.dao;
+
+import java.util.List;
+import java.util.Map;
+
+import org.leejianhao.basic.model.Pager;
+
+/**
+ * @author Administrator
+ *
+ */
+public class BaseDao<T> implements IBaseDao<T> {
+
+	public T add(T t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void update(T t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public T load(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> list(String hql, Object[] args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> list(String hql, Object args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> list(String hql) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> list(String hql, Object[] args, Map<String, Object> alias) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> list(String hql, Map<String, Object> alais) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> find(String hql, Object[] args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> find(String hql, Object args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> find(String hql) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> find(String hql, Object[] args, Map<String, Object> alias) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> find(String hql, Map<String, Object> alais) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object queryObject(String hql, Object[] args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object queryObject(String hql, Object args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object queryObject(String hql) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void updateByHql(String hql, Object[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void updateByHql(String hql, Object args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void updateByHql(String hql) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<T> listBySql(String sql, Object[] args, Class<T> clz,
+			boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> listBySql(String sql, Object args, Class<T> clz,
+			boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> listBySql(String sql, Class<T> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> listBySql(String sql, Object[] args,
+			Map<String, Object> alias, Class<T> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> listBySql(String sql, Map<String, Object> alias,
+			Class<T> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> findBySql(String sql, Object[] args, Class<T> clz,
+			boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> findBySql(String sql, Object args, Class<T> clz,
+			boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> findBySql(String sql, Class<T> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> findBySql(String sql, Object[] args,
+			Map<String, Object> alias, Class<T> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Pager<T> findBySql(String sql, Map<String, Object> alias,
+			Class<T> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package org.leejianhao.basic.dao;
+
+/**
+ * @author Administrator
+ *
+ */
+public class BaseDao<T> implements IBaseDao<T> {
+
+}

@@ -1,0 +1,19 @@
+package org.leejianhao.basic.model;
+
+/**
+ * 用来传递列表对象的ThreadLocal
+ * @author leejianhao
+ *
+ */
+public class SystemContext {
+	/**
+	 * 分页的大小
+	 */
+	private static ThreadLocal<Integer> pageSize;
+	/**
+	 * 分页的起始页
+	 */
+	private static ThreadLocal<Integer> pageOffset;
+	private static ThreadLocal<String> sort;
+	private static ThreadLocal<String> order;
+}
