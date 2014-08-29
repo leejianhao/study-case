@@ -24,7 +24,7 @@ public class Pager<T> {
 	/**
 	 * 分页的数量
 	 */
-	private List<T> dates;
+	private List<T> datas;
 	
 	public int getSize() {
 		return size;
@@ -44,11 +44,11 @@ public class Pager<T> {
 	public void setTotal(long total) {
 		this.total = total;
 	}
-	public List<T> getDates() {
-		return dates;
+	public List<T> getDatas() {
+		return datas;
 	}
-	public void setDates(List<T> dates) {
-		this.dates = dates;
+	public void setDatas(List<T> datas) {
+		this.datas = datas;
 	}
 	
 	

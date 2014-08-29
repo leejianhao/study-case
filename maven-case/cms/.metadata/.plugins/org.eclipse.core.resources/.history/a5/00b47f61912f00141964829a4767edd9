@@ -1,0 +1,8 @@
+package org.leejianhao.basic.dao;
+
+import org.leejianhao.basic.model.User;
+import org.leejianhao.basic的.dao.IBaseDao;
+
+public interface IUserDao extends IBaseDao<User> {
+
+}

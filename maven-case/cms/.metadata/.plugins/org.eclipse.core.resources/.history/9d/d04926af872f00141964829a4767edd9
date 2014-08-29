@@ -1,0 +1,22 @@
+package org.leejianhao.basic.dao;
+
+import javax.inject.Inject;
+
+import org.junit.Before;
+import org.junit.runner.RunWith;
+import org.leejianhao.basic.test.util.AbstractDbUnitTestCase;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("/beans.xml")
+public class TestUserDao extends AbstractDbUnitTestCase{
+	@Inject
+	private IUserDao userDao;
+	
+	@Before
+	public void setUp() {
+		
+	}
+	
+}

@@ -11,6 +11,15 @@ public class User {
 	private int id;
 	private String username;
 	
+	public User() {
+		 
+	}
+	
+	public User(int id, String username) {
+		super();
+		this.id = id;
+		this.username = username;
+	}
 	@Id
 	@GeneratedValue
 	public int getId() {

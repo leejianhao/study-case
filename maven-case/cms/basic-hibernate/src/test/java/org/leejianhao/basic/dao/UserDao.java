@@ -1,5 +1,6 @@
 package org.leejianhao.basic.dao;
 
+import org.leejianhao.basic.dao.BaseDao;
 import org.leejianhao.basic.model.User;
 import org.springframework.stereotype.Repository;
 

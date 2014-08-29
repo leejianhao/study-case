@@ -1,0 +1,50 @@
+package org.leejianhao.basic.dao;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.inject.Inject;
+
+import org.aspectj.lang.annotation.After;
+import org.dbunit.DatabaseUnitException;
+import org.dbunit.dataset.DataSetException;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.leejianhao.basic.model.User;
+import org.leejianhao.basic.test.util.AbstractDbUnitTestCase;
+import org.leejianhao.basic.test.util.EntitiesHelper;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.github.springtestdbunit.annotation.DatabaseSetup;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("/bean.xml")
+public class TestUserDao extends AbstractDbUnitTestCase{
+	@Inject
+	private IUserDao userDao;
+	
+	@Before
+	public void setUp() throws DataSetException, SQLException, IOException {
+		this.backupAllTable();	
+	}
+	
+	@Test
+	@DatabaseSetup("/t_user.xml")
+	public void TestLoad() throws DatabaseUnitException, SQLException {
+	//	IDataSet ds = createDateSet("t_user");
+	//	DatabaseOperation.CLEAN_INSERT.execute(dbunitCon, ds);
+		User u = userDao.load(1);
+		EntitiesHelper.assertUser(u);
+	}
+	
+	@After
+	public void tearDown() throws FileNotFoundException, DatabaseUnitException, SQLException {
+		this.resumeTable();
+	}
+	
+	
+	
+}

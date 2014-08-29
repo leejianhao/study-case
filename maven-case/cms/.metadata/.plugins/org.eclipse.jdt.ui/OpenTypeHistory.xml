@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=basic-hibernate/src\/main\/java&lt;org.leejianhao.basic.dao{IBaseDao.java[IBaseDao" modifiers="513" timestamp="1409067174779"/>
+<typeInfo handle="=basic-hibernate/src\/main\/java&lt;org.leejianhao.basic.dao{BaseDao.java[BaseDao" modifiers="1" timestamp="1409154484161"/>
+<typeInfo handle="=basic-hibernate/src\/main\/java&lt;org.leejianhao.basic.dao{IBaseDao.java[IBaseDao" modifiers="513" timestamp="1409153537406"/>
 </typeInfoHistroy>

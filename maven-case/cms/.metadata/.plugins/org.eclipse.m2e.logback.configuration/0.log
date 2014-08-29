@@ -2752,3 +2752,651 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems we
 2014-08-28 00:40:17,385 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
 2014-08-28 00:40:17,386 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2014-08-28 00:40:17,386 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 21:25:14,193 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:25:14,215 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:25:14,217 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:25:14,220 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 21:26:30,989 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:26:30,989 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:26:30,991 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:26:31,008 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-08-29 21:26:36,412 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:26:36,413 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:26:36,414 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:26:36,415 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 21:26:40,266 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:26:40,266 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:26:40,268 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:26:40,268 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-08-29 21:26:53,789 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:26:53,791 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:26:53,793 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:26:53,793 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-08-29 21:27:06,106 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:27:06,106 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:27:06,109 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:27:06,109 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-08-29 21:27:17,928 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:27:17,928 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:27:17,930 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:27:17,931 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-08-29 21:56:33,041 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:56:33,041 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:56:33,042 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:56:33,046 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 21:58:26,041 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:58:26,041 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:58:26,042 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:58:26,043 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 21:58:32,778 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:58:32,779 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:58:32,781 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:58:32,782 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 21:59:29,278 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:59:29,278 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:59:29,279 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:59:29,280 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 21:59:50,924 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:59:50,924 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:59:50,926 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:59:50,927 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 21:59:53,622 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:59:53,623 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 21:59:53,625 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 21:59:53,626 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:00:00,597 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:00:00,597 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:00:00,598 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:00:00,599 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:03:23,907 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:03:23,907 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:03:23,909 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:03:23,910 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:03:35,289 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:03:35,289 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:03:35,291 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:03:35,292 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:03:42,656 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:03:42,656 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:03:42,658 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:03:42,658 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:03:45,654 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:03:45,654 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:03:45,656 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:03:45,656 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:05:22,271 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:05:22,271 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:05:22,273 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:05:22,275 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:05:46,602 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:05:46,602 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:05:46,604 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:05:46,605 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:10:08,108 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:08,108 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:10:08,109 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:08,109 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:10:10,246 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:10,247 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:10:10,248 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:10,250 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:10:15,086 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:15,086 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:10:15,088 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:15,089 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:10:22,828 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:22,828 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:10:22,830 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:22,831 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:10:30,992 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:30,992 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:10:30,993 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:30,993 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:10:48,264 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:48,264 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:10:48,265 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:48,267 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:10:55,194 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:55,194 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:10:55,195 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:55,195 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:10:59,762 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:59,762 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:10:59,764 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:10:59,765 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:13:57,484 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:13:59,630 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:14:01,460 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:14:01,461 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:14:01,462 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:14:01,462 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:14:09,315 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:14:09,539 [Worker-35] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:14:10,226 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/dbunit/dbunit/2.4.9/dbunit-2.4.9.pom
+2014-08-29 22:14:11,311 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/dbunit/dbunit/2.4.9/dbunit-2.4.9.pom
+2014-08-29 22:14:11,635 [Worker-35] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:14:12,162 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+2014-08-29 22:14:12,165 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+2014-08-29 22:14:12,440 [Worker-35] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:14:13,220 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
+2014-08-29 22:14:14,821 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
+2014-08-29 22:14:15,721 [Worker-35] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:14:16,226 [New I/O client worker #4-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+2014-08-29 22:14:16,245 [New I/O client worker #4-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+2014-08-29 22:14:16,246 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/dbunit/dbunit/2.4.9/dbunit-2.4.9.jar
+2014-08-29 22:14:17,214 [New I/O client worker #4-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+2014-08-29 22:14:37,183 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/dbunit/dbunit/2.4.9/dbunit-2.4.9.jar
+2014-08-29 22:14:39,347 [New I/O client worker #4-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+2014-08-29 22:14:41,529 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:14:41,529 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:14:41,530 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:14:41,531 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:14:42,347 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:14:42,537 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:14:42,537 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:14:42,538 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:14:42,539 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-08-29 22:14:55,427 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:14:55,427 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:14:55,429 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:14:55,429 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-08-29 22:15:06,063 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:15:06,064 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:15:06,064 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:15:06,065 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:17:08,462 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:17:08,462 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:17:08,464 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:17:08,464 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:17:16,993 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:17:16,993 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:17:16,995 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:17:16,996 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:20:34,737 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:34,737 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:20:34,738 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:34,738 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:20:45,489 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:45,489 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:20:45,491 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:45,492 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:20:51,449 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:51,449 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:20:51,451 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:51,452 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:20:53,587 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:53,587 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:20:53,588 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:53,589 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:20:59,359 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:59,359 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:20:59,361 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:20:59,362 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:21:05,339 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:21:05,339 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:21:05,341 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:21:05,342 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:21:21,214 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:21:21,214 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:21:21,215 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:21:21,216 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:21:24,598 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:21:24,598 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:21:24,599 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:21:24,600 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:21:29,148 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:21:29,148 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:21:29,149 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:21:29,149 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:22:16,635 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:22:16,635 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:22:16,636 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:22:16,637 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:22:28,524 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:22:28,524 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:22:28,525 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:22:28,526 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:23:18,722 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:23:18,722 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:23:18,723 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:23:18,724 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:23:23,999 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:23:24,000 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:23:24,002 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:23:24,006 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:23:52,558 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:23:52,558 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:23:52,559 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:23:52,560 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:24:15,018 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:24:15,018 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:24:15,019 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:24:15,019 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:24:17,544 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:24:17,544 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:24:17,545 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:24:17,545 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:24:43,786 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:24:43,786 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:24:43,787 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:24:43,788 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:24:55,425 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-08-29 22:24:58,717 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 22:24:58,717 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 22:25:41,964 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:25:41,964 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:25:41,965 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:25:41,965 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:27:40,829 [Worker-44] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:27:40,861 [Worker-44] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:27:42,786 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:27:42,787 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:27:42,789 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:27:42,789 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:27:48,570 [Worker-50] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:27:48,593 [Worker-50] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:27:48,662 [Worker-50] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:27:49,167 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+2014-08-29 22:27:49,168 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+2014-08-29 22:27:49,461 [Worker-50] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:27:49,968 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+2014-08-29 22:27:49,970 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+2014-08-29 22:27:50,248 [Worker-50] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:27:50,718 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+2014-08-29 22:27:51,215 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+2014-08-29 22:27:53,242 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:27:53,243 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:27:53,244 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:27:53,244 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:27:57,578 [Worker-48] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:27:57,732 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:27:57,732 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:27:57,733 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:27:57,733 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:27:59,047 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:27:59,208 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:27:59,208 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:27:59,209 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:27:59,209 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:28:15,595 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2014-08-29 22:28:15,612 [Worker-50] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 22:28:15,612 [Worker-50] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 22:29:03,125 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:29:03,125 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:29:03,127 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:29:03,127 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:29:44,658 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-08-29 22:29:48,011 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 22:29:48,011 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 22:30:24,528 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:30:24,528 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:30:24,530 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:30:24,530 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:30:32,506 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-08-29 22:30:35,328 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 22:30:35,329 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 22:30:59,031 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:30:59,032 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:30:59,033 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:30:59,034 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:33:11,454 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:33:11,475 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:33:13,221 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:33:13,222 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:33:13,223 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:33:13,223 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:33:22,874 [Worker-52] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:33:22,945 [Worker-52] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:33:24,392 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.7.4/aspectjweaver-1.7.4.pom
+2014-08-29 22:33:24,394 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.7.4/aspectjweaver-1.7.4.pom
+2014-08-29 22:33:24,696 [Worker-52] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:33:25,995 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.7.4/aspectjweaver-1.7.4.jar
+2014-08-29 22:35:18,080 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.7.4/aspectjweaver-1.7.4.jar
+2014-08-29 22:35:18,727 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:35:18,727 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:35:18,728 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:35:18,728 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:35:18,793 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 22:35:18,793 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 22:35:19,933 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:35:19,934 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:35:19,935 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:35:19,935 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:48:31,354 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:48:31,354 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:48:31,355 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:48:31,356 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:51:30,837 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:51:30,867 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:51:32,632 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:51:32,632 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:51:32,634 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:51:32,634 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:51:42,605 [Worker-59] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:51:42,624 [Worker-59] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:51:44,157 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:51:44,157 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:51:44,159 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:51:44,159 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:51:49,248 [Worker-46] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:51:49,272 [Worker-46] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:51:50,831 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:51:50,832 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:51:50,833 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:51:50,834 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:52:02,262 [Worker-59] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:52:02,285 [Worker-59] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:52:04,089 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:52:04,090 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:52:04,092 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:52:04,092 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:52:21,382 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:52:21,447 [Worker-58] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:52:22,883 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/github/sprinttestdbunit/spring-test-dbunit/1.0.0/spring-test-dbunit-1.0.0.pom
+2014-08-29 22:52:22,888 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.github.sprinttestdbunit:spring-test-dbunit:jar:1.0.0 is missing, no dependency information available
+2014-08-29 22:52:22,917 [Worker-58] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:52:23,684 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/github/sprinttestdbunit/spring-test-dbunit/1.0.0/spring-test-dbunit-1.0.0.jar
+2014-08-29 22:52:23,824 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:52:23,825 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:52:23,826 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:52:23,826 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:52:50,593 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.greencloud.cms:cms-parent:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\cms-parent\pom.xml.
+2014-08-29 22:52:50,614 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:53:00,086 [Worker-61] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.leejianhao.basic:basic-hibernate:0.0.1-SNAPSHOT @ E:\study\maven\study-case\maven-case\cms\basic-hibernate\pom.xml.
+2014-08-29 22:53:00,158 [Worker-61] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:53:00,678 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/github/springtestdbunit/spring-test-dbunit/1.0.0/spring-test-dbunit-1.0.0.pom
+2014-08-29 22:53:00,680 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/github/springtestdbunit/spring-test-dbunit/1.0.0/spring-test-dbunit-1.0.0.pom
+2014-08-29 22:53:00,957 [Worker-61] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:53:01,509 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2014-08-29 22:53:01,511 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2014-08-29 22:53:01,805 [Worker-61] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 22:53:02,326 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/github/springtestdbunit/spring-test-dbunit/1.0.0/spring-test-dbunit-1.0.0.jar
+2014-08-29 22:53:03,099 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/github/springtestdbunit/spring-test-dbunit/1.0.0/spring-test-dbunit-1.0.0.jar
+2014-08-29 22:53:04,299 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:53:04,299 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:53:04,300 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:53:04,300 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:53:05,560 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:53:05,561 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:53:05,562 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:53:05,563 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:53:47,895 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:53:47,895 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:53:47,896 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:53:47,897 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:54:04,964 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:54:04,964 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:54:04,965 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:54:04,965 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:54:07,510 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:54:07,510 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:54:07,511 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:54:07,511 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:54:14,533 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:54:14,533 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:54:14,534 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:54:14,534 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:55:01,650 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:55:01,650 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:55:01,651 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:55:01,652 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:55:52,045 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 22:55:52,045 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 22:56:08,254 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:56:08,254 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:56:08,256 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:56:08,256 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:56:58,092 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:56:58,092 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:56:58,093 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:56:58,093 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:57:07,017 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 22:57:07,017 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 22:57:18,079 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:57:18,079 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:57:18,082 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:57:18,082 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 22:59:27,129 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:27,129 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:59:27,130 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:27,131 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:59:29,666 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:29,666 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:59:29,667 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:29,668 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:59:32,201 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:32,202 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:59:32,203 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:32,203 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:59:35,352 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:35,353 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:59:35,355 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:35,355 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:59:37,743 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:37,744 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:59:37,745 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:37,745 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:59:41,289 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:41,289 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:59:41,290 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:41,290 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 22:59:47,362 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:47,362 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 22:59:47,363 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 22:59:47,364 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:00:05,558 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 23:00:05,558 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 23:00:40,896 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:00:40,896 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:00:40,897 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:00:40,897 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:01:36,400 [Worker-66] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-08-29 23:01:37,038 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/dbunit/dbunit/2.4.9/dbunit-2.4.9-sources.jar
+2014-08-29 23:01:57,214 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/dbunit/dbunit/2.4.9/dbunit-2.4.9-sources.jar
+2014-08-29 23:01:57,665 [Worker-66] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.dbunit:dbunit:2.4.9
+2014-08-29 23:01:57,903 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:01:57,903 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:01:57,905 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:01:57,905 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:01:58,929 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:01:58,929 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:01:58,930 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:01:58,931 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:03:32,466 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:03:32,467 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:03:32,467 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:03:32,468 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:03:40,749 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-08-29 23:03:43,704 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 23:03:43,704 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 23:03:57,985 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:03:57,985 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:03:57,986 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:03:57,986 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:04:07,625 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:04:07,625 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:04:07,626 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:04:07,627 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:04:12,517 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:04:12,517 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:04:12,518 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:04:12,518 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:04:24,823 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:04:24,823 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:04:24,824 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:04:24,825 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:06:05,753 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:06:05,753 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:06:05,754 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:06:05,755 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:06:18,487 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:06:18,487 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:06:18,488 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:06:18,489 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:06:59,888 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:06:59,888 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:06:59,889 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:06:59,889 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:07:06,885 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:07:06,885 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:07:06,886 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:07:06,887 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:07:38,551 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:07:38,551 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:07:38,552 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:07:38,552 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:08:40,481 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:08:40,481 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:08:40,482 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:08:40,482 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:08:43,627 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:08:43,628 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:08:43,629 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:08:43,629 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:09:07,768 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:07,768 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:09:07,769 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:07,769 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:09:11,889 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:11,889 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:09:11,890 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:11,890 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:09:15,660 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:15,660 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:09:15,661 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:15,662 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:09:18,257 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:18,257 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:09:18,258 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:18,259 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:09:23,136 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:23,136 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:09:23,138 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:09:23,138 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:10:01,759 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:10:01,760 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:10:01,762 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:10:01,763 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:10:14,775 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:10:14,776 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:10:14,777 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:10:14,778 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:22:22,149 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-08-29 23:22:25,987 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 23:22:25,987 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 23:24:19,270 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:19,270 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:24:19,271 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:19,272 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:24:25,232 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:25,232 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:24:25,233 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:25,233 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:24:33,270 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:33,270 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:24:33,271 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:33,272 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:24:42,763 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:42,763 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:24:42,765 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:42,765 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:24:52,427 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:52,428 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:24:52,429 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:24:52,430 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:25:15,205 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:25:15,205 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:25:15,206 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:25:15,207 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:25:35,867 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:25:35,867 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:25:35,869 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:25:35,869 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:25:51,505 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 23:25:51,505 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 23:26:07,181 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:26:07,181 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:26:07,185 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:26:07,185 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:27:31,420 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:27:31,420 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:27:31,421 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:27:31,422 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:27:49,301 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:27:49,301 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:27:49,303 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:27:49,303 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:27:50,857 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:27:50,857 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:27:50,858 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:27:50,858 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:30:04,913 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:30:04,913 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:30:04,914 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:30:04,914 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:30:05,996 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:30:05,996 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:30:05,998 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:30:05,998 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:30:18,629 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:30:18,629 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:30:18,630 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:30:18,631 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:32:57,870 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:32:57,870 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:32:57,871 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:32:57,871 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:35:03,469 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:35:03,470 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:35:03,472 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:35:03,472 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:38:41,579 [Worker-80] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 23:38:41,579 [Worker-80] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 23:39:21,556 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:39:21,557 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:39:21,559 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:39:21,559 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-29 23:49:37,052 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:49:37,052 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:49:37,053 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:49:37,054 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:49:42,238 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:49:42,239 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:49:42,240 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:49:42,240 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:49:52,446 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:49:52,446 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:49:52,447 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:49:52,448 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:50:54,561 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:50:54,561 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:50:54,563 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:50:54,563 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:51:31,894 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:51:31,894 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:51:31,895 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:51:31,895 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:51:45,483 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 23:51:45,483 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
+2014-08-29 23:52:00,035 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:52:00,035 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:52:00,037 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:52:00,038 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:52:51,541 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:52:51,541 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:52:51,542 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:52:51,543 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:52:57,877 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:52:57,877 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:52:57,878 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:52:57,879 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:53:16,663 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:53:16,663 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:53:16,665 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:53:16,665 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:53:19,689 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:53:19,689 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\maven\study-case\maven-case\cms\basic-hibernate\src\main\resources
+2014-08-29 23:53:19,691 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-29 23:53:19,692 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-29 23:53:28,012 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\study\maven\study-case\maven-case\cms\basic-hibernate
+2014-08-29 23:53:28,012 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean test
