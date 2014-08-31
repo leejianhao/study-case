@@ -4,6 +4,7 @@
 package org.leejianhao.basic.dao;
 
 import java.lang.reflect.ParameterizedType;
+import java.math.BigInteger;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
@@ -29,14 +30,14 @@ public class BaseDao<T> implements IBaseDao<T> {
 	
 	private SessionFactory sessionFactory;
 	
-	private Class<Object> clz;
+	private Class<?> clz;
 	/**
 	 * 创建一个Class的对象来获取泛型的class 
 	 */
-	public Class<Object> getClz() {
+	public Class<?> getClz() {
 		if(clz==null) {
 			//获取泛型的Class对象
-			clz=(Class<Object>)(((ParameterizedType)(this.getClass().getGenericSuperclass())).getActualTypeArguments()[0]);
+			clz=(Class<?>)(((ParameterizedType)(this.getClass().getGenericSuperclass())).getActualTypeArguments()[0]);
 			
 		}
 		return clz;
@@ -74,6 +75,7 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#delete(int)
 	 */
+	@Override
 	public void delete(int id) {
 		getSession().delete(this.load(id));
 	}
@@ -89,7 +91,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#list(java.lang.String, java.lang.Object[])
 	 */
-	@Override
 	public List<T> list(String hql, Object[] args) {
 		
 		return this.list(hql,args,null);
@@ -98,7 +99,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#list(java.lang.String, java.lang.Object)
 	 */
-	@Override
 	public List<T> list(String hql, Object args) {
 		return this.list(hql,new Object[]{args});
 	}
@@ -106,7 +106,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#list(java.lang.String)
 	 */
-	@Override
 	public List<T> list(String hql) {
 		return this.list(hql,null);
 	}
@@ -149,7 +148,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#list(java.lang.String, java.lang.Object[], java.util.Map)
 	 */
-	@Override
 	public List<T> list(String hql, Object[] args, Map<String, Object> alias) {
 		hql = initSort(hql);
 		
@@ -163,7 +161,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#list(java.lang.String, java.util.Map)
 	 */
-	@Override
 	public List<T> listByAlias(String hql, Map<String, Object> alias) {
 		return this.list(hql,null,alias);
 	}
@@ -171,7 +168,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#find(java.lang.String, java.lang.Object[])
 	 */
-	@Override
 	public Pager<T> find(String hql, Object[] args) {
 		
 		return this.find(hql,args,null);
@@ -180,7 +176,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#find(java.lang.String, java.lang.Object)
 	 */
-	@Override
 	public Pager<T> find(String hql, Object args) {
 		return this.find(hql,new Object[]{args});
 	}
@@ -188,7 +183,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#find(java.lang.String)
 	 */
-	@Override
 	public Pager<T> find(String hql) {
 		return this.find(hql,null);
 	}
@@ -214,11 +208,9 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#find(java.lang.String, java.lang.Object[], java.util.Map)
 	 */
-	@Override
 	public Pager<T> find(String hql, Object[] args, Map<String, Object> alias) {
 		hql = initSort(hql);
 		String cq = getCountHql(hql, true);
-		cq = initSort(hql);
 		Query cquery = getSession().createQuery(cq);
 		Query query = getSession().createQuery(hql);
 		//设置别名
@@ -229,17 +221,16 @@ public class BaseDao<T> implements IBaseDao<T> {
 		setParameter(cquery, args);
 		Pager<T> pages = new Pager<T>();
 		setPagers(query,pages);
-		List<T> dates = query.list();
-		pages.setDatas(dates);
+		List<T> datas = query.list();
+		pages.setDatas(datas);
 		long total = (Long)cquery.uniqueResult();
-		pages.setTotal(total);
+		pages.setTotal(total); 
 		return pages;
 	}
 
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#find(java.lang.String, java.util.Map)
 	 */
-	@Override
 	public Pager<T> findByAlias(String hql, Map<String, Object> alias) {
 		return this.find(hql,null,alias);
 	}
@@ -247,7 +238,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#queryObject(java.lang.String, java.lang.Object[])
 	 */
-	@Override
 	public Object queryObject(String hql, Object[] args) {
 		return this.queryObject(hql,args,null);
 	}
@@ -255,7 +245,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#queryObject(java.lang.String, java.lang.Object)
 	 */
-	@Override
 	public Object queryObject(String hql, Object args) {
 		return this.queryObject(hql,new Object[]{args});
 	}
@@ -263,12 +252,10 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#queryObject(java.lang.String)
 	 */
-	@Override
 	public Object queryObject(String hql) {
 		return this.queryObject(hql,null);
 	}
 	
-	@Override
 	public Object queryObject(String hql, Object[] args,
 			Map<String, Object> alias) {
 		Query query = getSession().createQuery(hql);
@@ -277,7 +264,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 		return query.uniqueResult();
 	}
 
-	@Override
 	public Object queryObjectByAlias(String hql, Map<String, Object> alias) {
 		return this.queryObject(hql,null,alias);
 	}
@@ -285,7 +271,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#updateByHql(java.lang.String, java.lang.Object[])
 	 */
-	@Override
 	public void updateByHql(String hql, Object[] args) {
 		Query query = getSession().createQuery(hql);
 		setParameter(query, args);
@@ -295,7 +280,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#updateByHql(java.lang.String, java.lang.Object)
 	 */
-	@Override
 	public void updateByHql(String hql, Object args) {
 		this.updateByHql(hql, new Object[]{args});
 	}
@@ -303,7 +287,6 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#updateByHql(java.lang.String)
 	 */
-	@Override
 	public void updateByHql(String hql) {
 		this.updateByHql(hql,null);
 	}
@@ -311,17 +294,15 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#listBySql(java.lang.String, java.lang.Object[], java.lang.Class, boolean)
 	 */
-	@Override
-	public List<Object> listBySql(String sql, Object[] args, Class<Object> clz,
+	public <N extends Object> List<N> listBySql(String sql, Object[] args, Class<?> clz,
 			boolean hasEntity) {
-		return this.listBySql(sql, args, clz, hasEntity);
-	}
+		return this.listBySql(sql, args,null, clz, hasEntity);
+	} 
 
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#listBySql(java.lang.String, java.lang.Object, java.lang.Class, boolean)
 	 */
-	@Override
-	public List<Object> listBySql(String sql, Object args, Class<Object> clz,
+	public <N extends Object> List<N> listBySql(String sql, Object args, Class<?> clz,
 			boolean hasEntity) {
 		return this.listBySql(sql, new Object[]{args}, clz, hasEntity);
 	}
@@ -329,17 +310,15 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#listBySql(java.lang.String, java.lang.Class, boolean)
 	 */
-	@Override
-	public List<Object> listBySql(String sql, Class<Object> clz, boolean hasEntity) {
+	public <N extends Object> List<N> listBySql(String sql, Class<?> clz, boolean hasEntity) {
 		return this.listBySql(sql, null, clz, hasEntity);
 	}
 
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#listBySql(java.lang.String, java.lang.Object[], java.util.Map, java.lang.Class, boolean)
 	 */
-	@Override
-	public List<Object> listBySql(String sql, Object[] args,
-			Map<String, Object> alias, Class<Object> clz, boolean hasEntity) {
+	public  <N extends Object> List<N> listBySql(String sql, Object[] args,
+			Map<String, Object> alias, Class<?> clz, boolean hasEntity) {
 		sql = initSort(sql);
 		SQLQuery sq = getSession().createSQLQuery(sql);
 		setAliasParameter(sq, alias);
@@ -355,17 +334,15 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#listBySql(java.lang.String, java.util.Map, java.lang.Class, boolean)
 	 */
-	@Override
-	public List<Object> listByAliasSql(String sql, Map<String, Object> alias,
-			Class<Object> clz, boolean hasEntity) {
+	public <N extends Object> List<N> listByAliasSql(String sql, Map<String, Object> alias,
+			Class<?> clz, boolean hasEntity) {
 		return this.listBySql(sql, null, alias, clz, hasEntity);
 	}
 
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#findBySql(java.lang.String, java.lang.Object[], java.lang.Class, boolean)
 	 */
-	@Override
-	public Pager<Object> findBySql(String sql, Object[] args, Class<Object> clz,
+	public <N extends Object> Pager<N> findBySql(String sql, Object[] args, Class<?> clz,
 			boolean hasEntity) {
 		return this.findBySql(sql,args,null, clz, hasEntity);
 	}
@@ -373,8 +350,7 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#findBySql(java.lang.String, java.lang.Object, java.lang.Class, boolean)
 	 */
-	@Override
-	public Pager<Object> findBySql(String sql, Object args, Class<Object> clz,
+	public <N extends Object> Pager<N> findBySql(String sql, Object args, Class<?> clz,
 			boolean hasEntity) {
 		return this.findBySql(sql,new Object[]{args}, clz, hasEntity);
 	}
@@ -382,27 +358,24 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#findBySql(java.lang.String, java.lang.Class, boolean)
 	 */
-	@Override
-	public Pager<Object> findBySql(String sql, Class<Object> clz, boolean hasEntity) {
+	public <N extends Object> Pager<N> findBySql(String sql, Class<?> clz, boolean hasEntity) {
 		return this.findBySql(sql,null, clz, hasEntity);
 	}
 
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#findBySql(java.lang.String, java.lang.Object[], java.util.Map, java.lang.Class, boolean)
 	 */
-	@Override
-	public Pager<Object> findBySql(String sql, Object[] args,
-			Map<String, Object> alias, Class<Object> clz, boolean hasEntity) {
-		String cq = getCountHql(sql,false);
-		cq = initSort(cq);
+	public <N extends Object> Pager<N> findBySql(String sql, Object[] args,
+			Map<String, Object> alias, Class<?> clz, boolean hasEntity) {
 		sql = initSort(sql);
+		String cq = getCountHql(sql,false);
 		SQLQuery sq = getSession().createSQLQuery(sql);
 		SQLQuery cquery = getSession().createSQLQuery(cq);
 		setAliasParameter(sq, alias);
 		setAliasParameter(cquery, alias);
 		setParameter(sq, args);
 		setParameter(cquery, args);
-		Pager<Object> pages = new Pager<Object>();
+		Pager<N> pages = new Pager<N>();
 		setPagers(sq, pages);
 		
 		if(hasEntity) {
@@ -410,9 +383,9 @@ public class BaseDao<T> implements IBaseDao<T> {
 		} else {
 			sq.setResultTransformer(Transformers.aliasToBean(clz));
 		}
-		List<Object> dates = sq.list();
-		pages.setDatas(dates);
-		long total = (Long)cquery.uniqueResult();
+		List<N> datas = sq.list();
+		pages.setDatas(datas);
+		long total = ((BigInteger)cquery.uniqueResult()).longValue();
 		pages.setTotal(total);
 		return pages;
 	}
@@ -420,9 +393,8 @@ public class BaseDao<T> implements IBaseDao<T> {
 	/* (non-Javadoc)
 	 * @see org.leejianhao.basic.dao.IBaseDao#findBySql(java.lang.String, java.util.Map, java.lang.Class, boolean)
 	 */
-	@Override
-	public Pager<Object> findByAliasSql(String sql, Map<String, Object> alias,
-			Class<Object> clz, boolean hasEntity) {
+	public <N extends Object> Pager<N> findByAliasSql(String sql, Map<String, Object> alias,
+			Class<?> clz, boolean hasEntity) {
 		return this.findBySql(sql,null,alias, clz, hasEntity);
 	}
 

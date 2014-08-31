@@ -1,0 +1,59 @@
+package org.leejianhao.cms.service;
+
+import java.util.List;
+
+import org.leejianhao.cms.model.Role;
+import org.leejianhao.cms.model.User;
+
+public class UserService implements IUserService {
+
+	private IUserDao userDao;
+	@Override
+	public void add(User user, Integer[] rids, Integer[] gids) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(User user, Integer[] rids, Integer[] gids) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateStatus(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void findUser() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void load(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Role> listUserRoles(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Role> listUserGroups(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

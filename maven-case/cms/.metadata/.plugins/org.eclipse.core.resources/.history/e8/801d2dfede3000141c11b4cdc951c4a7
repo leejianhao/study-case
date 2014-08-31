@@ -1,0 +1,11 @@
+package org.leejianhao.cms.service;
+
+public interface IUserService {
+	/**
+	 * 添加用户，需要判断用户是否存在，如果存在抛出异常
+	 * @param user
+	 * @param rids
+	 * @param gids
+	 */
+	public void add(User user,Integer[] rids, Integer[] gids);
+}

@@ -1,0 +1,28 @@
+package org.leejianhao.cms.service;
+
+import javax.inject.Inject;
+
+import org.junit.runner.RunWith;
+import org.leejianhao.cms.dao.IGroupDao;
+import org.leejianhao.cms.dao.IRoleDao;
+import org.leejianhao.cms.dao.IUserDao;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("/test-beans.xml")
+public class TestUserService {
+	@Inject
+	private IUserService userService;
+	@Inject
+	private IRoleDao roleDao;
+	@Inject
+	private IUserDao userDao;
+	@Inject
+	private IGroupDao groupDao;
+	
+	@Test
+	public void testDelete() {
+		
+	}
+}

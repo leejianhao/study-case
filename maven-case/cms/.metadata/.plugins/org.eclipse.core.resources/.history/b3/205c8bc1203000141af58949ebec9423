@@ -1,0 +1,219 @@
+package org.leejianhao.basic.dao;
+
+import java.util.List;
+import java.util.Map;
+
+import org.leejianhao.basic.dao.BaseDao;
+import org.leejianhao.basic.model.Pager;
+import org.leejianhao.basic.model.User;
+import org.springframework.stereotype.Repository;
+
+@Repository("userDao")
+public class UserDao<User> implements IUserDao {
+
+	@Override
+	public org.leejianhao.basic.model.User add(org.leejianhao.basic.model.User t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(org.leejianhao.basic.model.User t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public org.leejianhao.basic.model.User load(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<org.leejianhao.basic.model.User> list(String hql, Object[] args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<org.leejianhao.basic.model.User> list(String hql, Object args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<org.leejianhao.basic.model.User> list(String hql) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<org.leejianhao.basic.model.User> list(String hql,
+			Object[] args, Map<String, Object> alias) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<org.leejianhao.basic.model.User> listByAlias(String hql,
+			Map<String, Object> alais) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Pager<org.leejianhao.basic.model.User> find(String hql, Object[] args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Pager<org.leejianhao.basic.model.User> find(String hql, Object args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Pager<org.leejianhao.basic.model.User> find(String hql) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Pager<org.leejianhao.basic.model.User> find(String hql,
+			Object[] args, Map<String, Object> alias) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Pager<org.leejianhao.basic.model.User> findByAlias(String hql,
+			Map<String, Object> alais) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object queryObject(String hql, Object[] args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object queryObject(String hql, Object args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object queryObject(String hql) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object queryObject(String hql, Object[] args,
+			Map<String, Object> alias) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object queryObjectByAlias(String hql, Map<String, Object> alias) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateByHql(String hql, Object[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateByHql(String hql, Object args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateByHql(String hql) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <N> List<N> listBySql(String sql, Object[] args, Class<?> clz,
+			boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> List<N> listBySql(String sql, Object args, Class<?> clz,
+			boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> List<N> listBySql(String sql, Class<?> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> List<N> listBySql(String sql, Object[] args,
+			Map<String, Object> alias, Class<?> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> List<N> listByAliasSql(String sql, Map<String, Object> alias,
+			Class<?> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> Pager<N> findBySql(String sql, Object[] args, Class<?> clz,
+			boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> Pager<N> findBySql(String sql, Object args, Class<?> clz,
+			boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> Pager<N> findBySql(String sql, Class<?> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> Pager<N> findBySql(String sql, Object[] args,
+			Map<String, Object> alias, Class<?> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <N> Pager<N> findByAliasSql(String sql, Map<String, Object> alias,
+			Class<?> clz, boolean hasEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

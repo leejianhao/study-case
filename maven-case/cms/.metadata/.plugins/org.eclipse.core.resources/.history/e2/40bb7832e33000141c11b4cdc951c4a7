@@ -1,0 +1,34 @@
+package org.leejianhao.basic.dao;
+
+import java.util.List;
+import java.util.Map;
+
+import org.leejianhao.basic.dao.BaseDao;
+import org.leejianhao.basic.model.Pager;
+import org.leejianhao.basic.model.User;
+import org.springframework.stereotype.Repository;
+
+@Repository("userDao")
+public class UserDao extends BaseDao<User> implements IUserDao {
+
+	public List<User> listBySql(String string, Object[] objects,
+			Class<User> class1, boolean b) {
+		return null;
+	}
+
+	public List<User> listBySql(String string, Object[] objects,
+			Map<String, Object> alias, Class<User> class1, boolean b) {
+		return null;
+	}
+
+	public Pager<User> findBySql(String string, Object[] objects,
+			Class<User> class1, boolean b) {
+		return null;
+	}
+
+	public Pager<User> findBySql(String string, Object[] objects,
+			Map<String, Object> alias, Class<User> class1, boolean b) {
+		return null;
+	}
+
+}

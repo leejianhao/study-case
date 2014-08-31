@@ -1,0 +1,87 @@
+package org.leejianhao.cms.service;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import org.leejianhao.cms.dao.IGroupDao;
+import org.leejianhao.cms.dao.IRoleDao;
+import org.leejianhao.cms.dao.IUserDao;
+import org.leejianhao.cms.model.CmsException;
+import org.leejianhao.cms.model.Group;
+import org.leejianhao.cms.model.Role;
+import org.leejianhao.cms.model.User;
+
+public class UserService implements IUserService {
+	
+	@Inject
+	private IUserDao userDao;
+	@Inject
+	private IRoleDao roleDao;
+	@Inject
+	private IGroupDao groupDao;
+	
+	@Override
+	public void add(User user, Integer[] rids, Integer[] gids) {
+		User tu = userDao.loadByUsername(user.getUsername());
+		if(tu != null) throw new CmsException("添加的用户对象已经存在，不能添加");
+		userDao.add(user);
+		
+		//添加角色对象
+		for(Integer rid: rids) {
+			//1.检查角色对象是否存在，如果不存在，就抛出异常
+			Role role = roleDao.load(rid);
+			if(role ==null) throw new CmsException("要添加的用户角色不存在.");
+			//2.检查用户角色对象是否存在，如果存在，就不添加
+			userDao.addUserRole(user, role);
+		}
+		//添加用户组对象
+		for(Integer gid:gids) {
+			Group group = groupDao.load(gid);
+			
+		}
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(User user, Integer[] rids, Integer[] gids) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateStatus(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void findUser() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void load(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Role> listUserRoles(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Role> listUserGroups(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

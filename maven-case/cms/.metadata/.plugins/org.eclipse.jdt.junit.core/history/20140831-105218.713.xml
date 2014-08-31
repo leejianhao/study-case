@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="TestUserDao.testLoad" project="basic-hibernate" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="testLoad" classname="org.leejianhao.basic.dao.TestUserDao" time="2.724"/>
+</testrun>

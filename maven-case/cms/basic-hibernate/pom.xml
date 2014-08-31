@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 	
   <parent>
-  	<groupId>com.greencloud.cms</groupId>
+  	<groupId>org.leejianhao.cms</groupId>
     <artifactId>cms-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   	<relativePath>../cms-parent/pom.xml</relativePath>
-  	
   </parent>
+  
   <groupId>org.leejianhao.basic</groupId>
   <artifactId>basic-hibernate</artifactId>
   <packaging>jar</packaging>
@@ -41,7 +41,6 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>

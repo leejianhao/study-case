@@ -1,0 +1,40 @@
+package org.leejianhao.cms.service;
+
+import javax.inject.Inject;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.leejianhao.cms.dao.IGroupDao;
+import org.leejianhao.cms.dao.IRoleDao;
+import org.leejianhao.cms.dao.IUserDao;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import static org.easymock.EasyMock.*;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("/test-beans.xml")
+public class TestUserService {
+	@Inject
+	private IUserService userService;
+	@Inject
+	private IRoleDao roleDao;
+	@Inject
+	private IUserDao userDao;
+	@Inject
+	private IGroupDao groupDao;
+	
+	@Test
+	public void testDelete() {
+		int uid = 2;
+		userDao.deleteUserGroups(uid);
+		expectLastCall();
+		userDao.deleteUserRoles(uid);
+		expectLastCall();
+		userDao.delete(uid);
+		expectLastCall();
+		replay(userDao);
+		userService.delete(uid);
+		verify(userDao);
+		
+	}
+}
