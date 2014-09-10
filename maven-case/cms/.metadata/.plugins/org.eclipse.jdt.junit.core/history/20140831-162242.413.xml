@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testrun name="TestUserDao.testAddUserGroup" project="cms-core" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testcase name="testAddUserGroup" classname="org.leejianhao.cms.dao.TestUserDao" time="6.332"/>
-</testrun>

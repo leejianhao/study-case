@@ -1,8 +1,0 @@
-package org.leejianhao.basic.model;
-
-public class Pager {
-	private int size;
-	private int offset;
-	private int total;
-	private List<T> dates;
-}

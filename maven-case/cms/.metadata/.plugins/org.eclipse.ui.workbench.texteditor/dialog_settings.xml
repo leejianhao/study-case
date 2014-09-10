@@ -2,29 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="273" key="DIALOG_WIDTH"/>
-		<item value="568" key="DIALOG_Y_ORIGIN"/>
-		<item value="1005" key="DIALOG_X_ORIGIN"/>
+		<item value="506" key="DIALOG_Y_ORIGIN"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="628" key="DIALOG_X_ORIGIN"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="FlatXmlDataSet" key="selection"/>
+		<item value="webmvc" key="selection"/>
 		<list key="findhistory">
-			<item value="FlatXmlDataSet"/>
-			<item value="tempFile"/>
-			<item value="slf"/>
-			<item value="validation"/>
-			<item value="konghao"/>
-			<item value="jdbc"/>
-			<item value="slf4"/>
-			<item value="dbcp"/>
+			<item value="webmvc"/>
+			<item value="InitServlet"/>
+			<item value="initServlet"/>
+			<item value="spring-aop"/>
+			<item value="deleteUserRoles"/>
+			<item value="UserService"/>
+			<item value="*/"/>
+			<item value="@Override"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 			<item value="leejianhao"/>
 			<item value="listUserGroupIds"/>
 			<item value="org.leejianhao"/>
@@ -32,7 +33,6 @@
 			<item value="&lt;N extends Object&gt; List&lt;N&gt;"/>
 			<item value="&lt;N extends Object&gt; Pager&lt;N&gt;"/>
 			<item value="Class&lt;?&gt;"/>
-			<item value="setDatas"/>
 		</list>
 	</section>
 </section>

@@ -1,5 +1,0 @@
-package org.leejianhao.basic.dao;
-
-public interface IUserDao<T> extends IBaseDao<T> {
-
-}

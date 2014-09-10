@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testrun name="TestUserService.testAdd2" project="cms-user" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testcase name="testAdd2" classname="org.leejianhao.cms.service.TestUserService" time="0.449"/>
-</testrun>

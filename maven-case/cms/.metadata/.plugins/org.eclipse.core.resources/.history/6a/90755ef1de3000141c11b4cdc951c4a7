@@ -1,5 +1,0 @@
-package org.leejianhao.cms.service;
-
-public interface IUserService {
-	public void add(User user,Integer[] rids, Integer[] gids);
-}

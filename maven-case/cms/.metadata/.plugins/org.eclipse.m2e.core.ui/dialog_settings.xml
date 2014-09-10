@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item value="450" key="height"/>
+		<item value="480" key="width"/>
+		<item value="220" key="y"/>
+		<item value="720" key="x"/>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -9,12 +15,6 @@
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 		</list>
-	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
-		<item value="450" key="height"/>
-		<item value="480" key="width"/>
-		<item value="220" key="y"/>
-		<item value="720" key="x"/>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 		<list key="issueManagementUrl">
@@ -28,8 +28,16 @@
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="450" key="height"/>
+		<item value="480" key="width"/>
+		<item value="381" key="y"/>
+		<item value="1009" key="x"/>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\study\maven\study-case\maven-case\cms\cms-test"/>
+			<item value="E:\study\maven\study-case\maven-case\cms\cms-parent\intro.txt"/>
 			<item value="E:\study\maven\study-case\maven-case\cms\cms-parent"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -40,24 +48,24 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 		</list>
 	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
-		<item value="450" key="height"/>
-		<item value="480" key="width"/>
-		<item value="381" key="y"/>
-		<item value="1009" key="x"/>
-	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
 			<item value="org.leejianhao.cms"/>
 			<item value="org.leejianhao.basic"/>
 		</list>
 		<list key="package">
+			<item value="org.leejianhao.cms.test"/>
+			<item value="org.leejianhao.cms.cms_web"/>
+			<item value="org.leejianhao.cms.service"/>
 			<item value="org.leejianhao.cms.cms_test"/>
 			<item value="org.leejianhao.cms.cms_core"/>
 			<item value="org.leejianhao.basic"/>
 			<item value="foo"/>
 		</list>
 		<list key="artifactId">
+			<item value="test"/>
+			<item value="cms-web"/>
+			<item value="cms-user"/>
 			<item value="cms-test"/>
 			<item value="cms-core"/>
 			<item value="basic-hibernate"/>

@@ -1,5 +1,0 @@
-package org.leejianhao.cms.model;
-
-public class CmsException extends RuntimeException {
-
-}

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="cms-core"/>
+<aop-project name="cms-user"/>
+<aop-project name="cms-test"/>
+<aop-project name="cms-web"/>
 <aop-project name="basic-hibernate"/>
 </aop-reference-model>
