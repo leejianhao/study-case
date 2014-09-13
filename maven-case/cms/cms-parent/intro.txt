@@ -20,7 +20,7 @@
 	JSR 303
 	JSR250 @Resource
 	@Inject
-	
+	clean install -Dmaven.test.skip
 	clean install -Dskiptests=true
 	1.hibernate4取消继承HibernateDaoSupport,目的在于和spring解耦
 	

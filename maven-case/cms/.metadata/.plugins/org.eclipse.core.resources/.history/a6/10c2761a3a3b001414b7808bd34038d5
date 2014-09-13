@@ -1,0 +1,48 @@
+package org.leejianhao.cms.service;
+
+import java.util.List;
+
+import org.leejianhao.basic.model.Pager;
+import org.leejianhao.cms.model.Group;
+
+public class GroupService implements IGroupService {
+
+	private IGroupDao groupDao;
+	private IUserDao userDao;
+	@Override
+	public void add(Group group) {
+
+	}
+
+	@Override
+	public void delete(int id) {
+
+	}
+
+	@Override
+	public Group load(int id) {
+		return null;
+	}
+
+	@Override
+	public void update(Group group) {
+
+	}
+
+	@Override
+	public List<Group> listGroup() {
+		return null;
+	}
+
+	@Override
+	public Pager<Group> findGroup() {
+		return null;
+	}
+
+	@Override
+	public void deleteGroupUsers(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

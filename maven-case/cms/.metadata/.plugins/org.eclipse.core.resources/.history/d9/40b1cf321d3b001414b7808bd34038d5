@@ -1,0 +1,7 @@
+package org.leejianhao.cms.filter;
+
+import javax.servlet.Filter;
+
+public class SystemContextFilter implements Filter {
+
+}

@@ -1,0 +1,52 @@
+package org.leejianhao.cms.dto;
+
+import org.leejianhao.cms.model.User;
+
+
+public class UserDto {
+	private int id;
+	/**
+	 * 用户的登入名称
+	 */
+	private String username;
+	/**
+	 * 用户登录密码
+	 */
+	private String password;
+	/**
+	 * 用户中文名称
+	 */
+	private String nickname;
+	/**
+	 * 用户邮件
+	 */
+	private String email;
+	/**
+	 * 用户的联系电话
+	 */
+	private String phone;
+	/**
+	 * 用户的状态： 0表示停用，1表示启用
+	 */
+	private int status;
+	
+	/**
+	 * 角色id
+	 */
+	private Integer[] roleIds;
+	/**
+	 * 组id
+	 */
+	private Integer[] groupIds;
+	
+	public User getUser() {
+		User u = new User();
+		u.setId(this.id);
+		u.setEmail(email);
+		u.setNickname(nickname);
+		u.setPassword(password);
+		u.setPhone(phone);
+		u.setStatus(status);
+		u.setUsername(username);
+	}
+}

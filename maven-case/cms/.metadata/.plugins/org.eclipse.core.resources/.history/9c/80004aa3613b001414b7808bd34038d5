@@ -1,0 +1,23 @@
+package org.leejianhao.cms.controller;
+
+import javax.inject.Inject;
+
+import org.leejianhao.cms.service.IRoleService;
+import org.leejianhao.cms.service.IUserService;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/admin/role")
+@Controller
+public class RoleController {
+	
+	@Inject
+	private IRoleService roleService;
+	@Inject
+	private IUserService userService;
+	
+	public String list(Model model) {
+		model.addAttribute("roles", roleService.listRole());
+	}
+}

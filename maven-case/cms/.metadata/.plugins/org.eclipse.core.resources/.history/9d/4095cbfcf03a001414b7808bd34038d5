@@ -1,0 +1,8 @@
+(function($) {
+	$.fn.myaccordion = function(opts) {
+		var settings = $.extend({
+			selectedClz:"navSelected",
+			titleTagName:"h3"
+		},opts||{}) 
+	}
+})(jQuery)

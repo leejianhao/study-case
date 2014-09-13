@@ -24,6 +24,13 @@
 			<td class="rightTd">组描述:</td><td class="leftTd">${group.descr }&nbsp;</td>
 		</tr>
 		<tr>
+			<td class="rightTd">创建时间:</td>
+			<td>
+				<fmt:formatDate value="${group.createDate }" pattern="yyyy-MM-dd HH:mm:ss"/>
+				&nbsp;
+			</td>
+		</tr>
+		<tr>
 			<td class="rightTd">组中的所有用户:</td>
 			<td>
 				<c:forEach items="${us }" var="u">

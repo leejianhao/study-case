@@ -1,0 +1,13 @@
+package org.leejianhao.basic.util;
+
+import java.util.List;
+
+public class EnumUtils {
+	public static List<Integer> enum2Ordinal(Enum en) {
+		return null;
+	}
+	
+	public static void main(String[] args) {
+		enum2Ordinal(RoleType.class)
+	}
+}

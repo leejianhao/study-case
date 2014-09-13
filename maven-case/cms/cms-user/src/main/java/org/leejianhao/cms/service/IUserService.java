@@ -63,4 +63,32 @@ public interface IUserService {
 	 * @return
 	 */
 	public List<Group> listUserGroups(int id);
+	
+	/**
+	 * 获取用户的所有角色id
+	 * @param id
+	 * @return
+	 */
+	public List<Integer> listUserRoleIds(int id);
+	
+	/**
+	 * 获取用户所有组id
+	 * @param id
+	 * @return
+	 */
+	public List<Integer> listUserGroupIds(int id);
+	
+	/**
+	 * 列出该组下的所有用户
+	 * @param gid
+	 * @return
+	 */
+	public List<User> listGroupUsers(int gid);
+	
+	/**
+	 * 列出该角色的所有用户
+	 * @param gid
+	 * @return
+	 */
+	public List<User> listRoleUsers(int rid);  
 }

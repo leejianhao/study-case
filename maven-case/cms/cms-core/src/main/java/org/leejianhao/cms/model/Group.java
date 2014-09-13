@@ -1,5 +1,8 @@
 package org.leejianhao.cms.model;
 
+import java.util.Date;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -26,6 +29,12 @@ public class Group {
 	 * 组描述信息
 	 */
 	private String descr;
+	
+	/**
+	 * 组创建时间
+	 */
+	private Date createDate;
+	
 	
 	public Group() {
 	}
@@ -58,6 +67,15 @@ public class Group {
 	}
 	public void setDescr(String descr) {
 		this.descr = descr;
+	}
+
+	@Column(name="create_date")
+	public Date getCreateDate() {
+		return createDate;
+	}
+
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
 	}
 	
 	

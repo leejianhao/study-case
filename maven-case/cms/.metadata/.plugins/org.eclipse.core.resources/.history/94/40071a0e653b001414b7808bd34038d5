@@ -1,0 +1,10 @@
+package org.leejianhao.basic.util;
+
+import java.util.List;
+
+public class EnumUtils {
+	public static List<Integer> enum2Ordinal(Class<? extends Enum> clz) {
+		return null;
+	}
+	
+}

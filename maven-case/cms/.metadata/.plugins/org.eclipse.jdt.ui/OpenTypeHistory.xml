@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=cms-user/src\/main\/java&lt;org.leejianhao.cms.service{IUserService.java[IUserService" modifiers="513" timestamp="1409476526629"/>
+<typeInfo handle="=cms-user/src\/main\/java&lt;org.leejianhao.cms.service{IUserService.java[IUserService" modifiers="513" timestamp="1410623152444"/>
 <typeInfo handle="=basic-hibernate/src\/test\/java&lt;org.leejianhao.basic.dao{IUserDao.java[IUserDao" modifiers="513" timestamp="1409471747370"/>
 <typeInfo handle="=cms-core/D:\/Java\/jdk1.6.0_38\/jre\/lib\/rt.jar&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1385190114392"/>
+<typeInfo handle="=cms-user/src\/main\/java&lt;org.leejianhao.cms.service{IGroupService.java[IGroupService" modifiers="513" timestamp="1410608113410"/>
+<typeInfo handle="=cms-core/src\/main\/java&lt;org.leejianhao.cms.dao{IRoleDao.java[IRoleDao" modifiers="513" timestamp="1410609203713"/>
+<typeInfo handle="=cms-user/src\/main\/java&lt;org.leejianhao.cms.service{IRoleService.java[IRoleService" modifiers="513" timestamp="1410608090987"/>
 </typeInfoHistroy>

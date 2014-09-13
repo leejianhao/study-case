@@ -60,6 +60,14 @@ public class TestUserDao extends AbstractDbUnitTestCase{
 	}
 	
 	@Test
+	public void testListUserByUsername() throws DatabaseUnitException, SQLException {
+		IDataSet ds = createDateSet("t_user");
+		DatabaseOperation.CLEAN_INSERT.execute(dbunitCon,ds);
+		User user = userDao.loadByUsername("admin1");
+		assertEquals(user.getUsername(), "admin1");
+	}
+	
+	@Test
 	public void testListUserRoles() throws DatabaseUnitException, SQLException {
 		IDataSet ds = createDateSet("t_user");
 		DatabaseOperation.CLEAN_INSERT.execute(dbunitCon,ds);

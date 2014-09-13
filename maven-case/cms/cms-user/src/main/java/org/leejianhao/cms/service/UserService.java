@@ -1,5 +1,6 @@
 package org.leejianhao.cms.service;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -13,7 +14,9 @@ import org.leejianhao.cms.model.CmsException;
 import org.leejianhao.cms.model.Group;
 import org.leejianhao.cms.model.Role;
 import org.leejianhao.cms.model.User;
+import org.springframework.stereotype.Service;
 
+@Service("userService")
 public class UserService implements IUserService {
 	
 	private IUserDao userDao;
@@ -68,6 +71,7 @@ public class UserService implements IUserService {
 	public void add(User user, Integer[] rids, Integer[] gids) {
 		User tu = userDao.loadByUsername(user.getUsername());
 		if(tu != null) throw new CmsException("添加的用户对象已经存在，不能添加");
+		user.setCreateDate(new Date());
 		userDao.add(user);
 		
 		//添加角色对象
@@ -151,5 +155,24 @@ public class UserService implements IUserService {
 	public List<Group> listUserGroups(int id) {
 		return userDao.listUserGroups(id);
 	}
+	
+	@Override
+	public List<Integer> listUserGroupIds(int id) {
+		return userDao.listUserGroupIds(id);
+	}
+	
+	@Override
+	public List<Integer> listUserRoleIds(int id) {
+		return userDao.listUserRoleIds(id);
+	}
 
+	@Override
+	public List<User> listGroupUsers(int gid) {
+		return userDao.listGroupUsers(gid);
+	}
+
+	@Override
+	public List<User> listRoleUsers(int rid) {
+		return userDao.listRoleUsers(rid);
+	}
 }

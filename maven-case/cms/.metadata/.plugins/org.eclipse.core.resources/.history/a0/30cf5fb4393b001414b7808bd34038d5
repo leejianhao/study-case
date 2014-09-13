@@ -1,0 +1,5 @@
+package org.leejianhao.cms.service;
+
+public interface IRoleService {
+	public void add(Role role);
+}
