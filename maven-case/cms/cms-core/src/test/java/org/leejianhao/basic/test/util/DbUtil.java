@@ -9,8 +9,8 @@ import java.sql.SQLException;
 public class DbUtil {
 	public static Connection getConnection() throws SQLException {
 		Connection con = null;
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fz_cms?useUnicode=true&characterEncoding=UTF-8", 
-				"fz", "fz123");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fz_cms?useUnicode=true&characterEncoding=UTF-8&sessionVariables=foreign_key_checks=0", 
+				"root", "ljh");
 		return con;
 	}
 	

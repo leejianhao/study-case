@@ -13,8 +13,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.leejianhao.cms.auth.AuthClass;
+
 @RequestMapping("/admin/role")
 @Controller
+@AuthClass
 public class RoleController {
 	
 	@Inject
@@ -50,7 +53,7 @@ public class RoleController {
 	@RequestMapping(value="/add",method=RequestMethod.GET)
 	public String add(Model model) {
 		model.addAttribute(new Role());
-		model.addAttribute("types",EnumUtils.enum2name(RoleType.class));
+		model.addAttribute("types",EnumUtils.enum2Name(RoleType.class));
 		return "role/add";
 	}
 	

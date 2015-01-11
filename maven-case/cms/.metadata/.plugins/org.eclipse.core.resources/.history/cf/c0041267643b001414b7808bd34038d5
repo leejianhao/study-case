@@ -1,7 +1,0 @@
-package org.leejianhao.basic.util;
-
-public class EnumUtils {
-	public static List<Integer> enum2Ordinal() {
-		
-	}
-}

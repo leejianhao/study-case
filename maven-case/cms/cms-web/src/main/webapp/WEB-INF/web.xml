@@ -8,10 +8,22 @@
 		<servlet-name>cms</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>cms</servlet-name>
+		<url-pattern>/dwr/*</url-pattern>
+	</servlet-mapping>
+	
 	<servlet-mapping>
 		<servlet-name>cms</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>initServlet</servlet-name>
+		<servlet-class>org.leejianhao.cms.web.InitServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
 	
 	<filter>
 		<filter-name>CharacterFilter</filter-name>
@@ -32,8 +44,13 @@
 	<!-- Spring 的监听器可以通过这个上下文参数来获取beans.xml的位置 -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
+		<!-- <param-value>classpath*:beans.xml,classpath*:dwr.xml</param-value> -->
 		<param-value>classpath*:beans.xml</param-value>
 	</context-param>
+	
+	<listener>
+		<listener-class>org.leejianhao.cms.web.CmsSessionListener</listener-class>
+	</listener>
 	
 	<!-- Spring中提供了 org.springframework.orm.hibernate3.support.OpenSessionInViewFilter; 
 		这个类来实现OpenSessionInViewer的操作 -->
@@ -54,4 +71,5 @@
 		<filter-name>SystemContextFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+	
 </web-app>

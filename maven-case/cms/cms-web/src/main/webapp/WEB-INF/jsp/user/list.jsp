@@ -49,7 +49,7 @@
 				</td>
 				<td>
 					<a href="delete/${user.id }" title="${user.id }" class="list_op delete">删除</a>
-					<a href="update/${user.id }" class="list_op">更新</a>
+					<a href="update/${user.id }" class="list_op">更新${user.id }</a>
 					<a href="<%=request.getContextPath() %>/admin/user/listChannels/${user.id }" class="list_op">管理栏目</a>
 				&nbsp;
 				</td>

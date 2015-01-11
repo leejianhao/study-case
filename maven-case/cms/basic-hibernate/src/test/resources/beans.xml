@@ -22,7 +22,7 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3306/cms_test" />
 		<property name="username" value="root" />
-		<property name="password" value="lee" />
+		<property name="password" value="ljh" />
 		<!-- 配置连接池的初始值 -->
 		<property name="initialSize" value="1" />
 		<!-- 连接池的最大值 -->

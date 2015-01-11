@@ -1,0 +1,13 @@
+1.图片上传路径
+注意src>config.property中的fileGeneratePath的配置，改为服务器相应位置，
+例如：上传文件到/usr/local/tomcat/upload/；
+相应的tomcat>server.xml需要进行配置。
+<Context docBase="/usr/local/tomcat/webapps/website/" path="" />
+<Context docBase="/usr/local/tomcat/upload/" path="/upload" />
+2.网站数据库链接修改
+在spring>jdbc.mysql.properties中修改jdbc.url
+3.访问预订页面
+http://localhost:8080/book/listBookOrder.htm?checkInDate=2014-12-19&checkOutDate=2014-12-20&cityCode=SHSH
+checkInDate   入住日期，默认为今天
+checkOutDate 离点日期，默认为明天
+cityCode 城市 默认上海城市code

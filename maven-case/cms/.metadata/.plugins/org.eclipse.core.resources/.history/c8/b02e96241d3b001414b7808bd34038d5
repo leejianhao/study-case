@@ -1,5 +1,0 @@
-package org.leejianhao.cms.filter;
-
-public class SystemContextFilter {
-
-}

@@ -48,5 +48,6 @@
       <groupId>org.leejianhao.basic</groupId>
       <artifactId>basic-hibernate</artifactId>
     </dependency>
+    
   </dependencies>
 </project>

@@ -10,7 +10,7 @@ public class DbUtil {
 	public static Connection getConnection() throws SQLException {
 		Connection con = null;
 		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cms_test", 
-				"root", "lee");
+				"root", "ljh");
 		return con;
 	}
 	

@@ -4,5 +4,6 @@
 <aop-project name="cms-user"/>
 <aop-project name="cms-test"/>
 <aop-project name="cms-web"/>
+<aop-project name="cms-topic"/>
 <aop-project name="basic-hibernate"/>
 </aop-reference-model>

@@ -198,7 +198,7 @@ public class TestUserDao extends AbstractDbUnitTestCase{
 	
 	@After
 	public void tearDown() throws FileNotFoundException, DatabaseUnitException, SQLException {
-		//this.resumeTable();
+		this.resumeTable();
 		
 		SessionHolder holder = (SessionHolder) TransactionSynchronizationManager.getResource(sessionFactory);
 		Session s = holder.getSession(); 

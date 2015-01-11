@@ -47,6 +47,19 @@
 			is_index="0" is_top_nav="0" recommend="0" status="0" orders="3" pid="16"/>
 		<t_channel id="20" name="招生管理4" custom_link="0" custom_link_url="#" type="0" 
 			is_index="0" is_top_nav="0" recommend="0" status="0" orders="4" pid="16"/>
+	<t_group_channel id="1" g_id="1" c_id="1"/>
+	<t_group_channel id="2" g_id="1" c_id="2"/>
+	<t_group_channel id="3" g_id="1" c_id="3"/>
+	<t_group_channel id="4" g_id="1" c_id="6"/>
+	<t_group_channel id="5" g_id="1" c_id="8"/>
+	
+	<t_group_channel id="6" g_id="2" c_id="11"/>
+	<t_group_channel id="7" g_id="2" c_id="12"/>
+	<t_group_channel id="8" g_id="2" c_id="13"/>
+	<t_group_channel id="9" g_id="2" c_id="16"/>
+	<t_group_channel id="10" g_id="2" c_id="17"/>
+	<t_group_channel id="11" g_id="2" c_id="18"/>
+	
 			
     <t_keyword id="1" name="ab" times="1"  name_full_py="ab" name_short_py="ab"/>
 	<t_keyword id="2" name="bc" times="2" name_full_py="bc" name_short_py="bc"/>
@@ -115,6 +128,6 @@
 	
 	<t_attachment  id="10" new_name="bb10" old_name="aa10" type="xls" suffix="xls"  size="123"
 		is_index_pic="0"  is_img="0"  tid="4" is_attach="1" create_date="2013-05-11"/>
-	
+	-->
 	
 </dataset>

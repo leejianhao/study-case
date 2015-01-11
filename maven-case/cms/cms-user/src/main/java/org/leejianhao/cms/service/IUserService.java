@@ -33,6 +33,9 @@ public interface IUserService {
 	 */
 	public void update(User user,Integer[] rids, Integer[] gids);
 	
+	public void update(User user);
+	
+	public void updatePwd(int uid, String oldPwd, String newPwd);
 	/**
 	 * 更新用户状态
 	 * @param id
@@ -91,4 +94,6 @@ public interface IUserService {
 	 * @return
 	 */
 	public List<User> listRoleUsers(int rid);  
+	
+	public User login(String username, String password);
 }

@@ -8,6 +8,7 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
 
 import org.leejianhao.basic.model.SystemContext;
 
@@ -31,12 +32,14 @@ public class SystemContextFilter implements Filter {
 	    	SystemContext.setSort(req.getParameter("sort"));
 	    	SystemContext.setPageOffset(offset);
 	    	SystemContext.setPageSize(pageSize);
+	    	SystemContext.setRealPath(((HttpServletRequest)req).getSession().getServletContext().getRealPath("/"));
 	    	chain.doFilter(req, resp);
 	    } finally {
 	    	SystemContext.removeOrder();
 	    	SystemContext.removeSort();
 	    	SystemContext.removePageOffset();
 	    	SystemContext.removePageSize();
+	    	SystemContext.removeRealPath();
 	    }
 	}
 

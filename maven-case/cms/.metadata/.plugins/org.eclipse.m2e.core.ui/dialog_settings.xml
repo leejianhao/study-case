@@ -50,19 +50,22 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
-			<item value="org.leejianhao.cms"/>
 			<item value="org.leejianhao.basic"/>
+			<item value="org.leejianhao.cms"/>
 		</list>
 		<list key="package">
+			<item value="org.leejianhao.basic.basic_common"/>
+			<item value="org.leejianhao.cms.service"/>
 			<item value="org.leejianhao.cms.test"/>
 			<item value="org.leejianhao.cms.cms_web"/>
-			<item value="org.leejianhao.cms.service"/>
 			<item value="org.leejianhao.cms.cms_test"/>
 			<item value="org.leejianhao.cms.cms_core"/>
 			<item value="org.leejianhao.basic"/>
 			<item value="foo"/>
 		</list>
 		<list key="artifactId">
+			<item value="basic-common"/>
+			<item value="cmc-topic"/>
 			<item value="test"/>
 			<item value="cms-web"/>
 			<item value="cms-user"/>

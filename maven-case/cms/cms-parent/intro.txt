@@ -3,10 +3,17 @@
 2.	Spring+Hibernate4+SpringMVC
 3.	页面采用FreeMarker
 4.	Js库采用Freemarker
-5.	数Ztree
+5.	树Ztree
+5.1 sortable
+
 6.	上传文件，uplodify
 7.	Ajax,Dwr
 8.	数据备份
+
+1.xhEditor_在线HTML编辑器_可视化编辑器
+2.uploadify无刷新上传
+
+
   DBunit ,EasyMock
 1.Maven的分模块管理
 	-basic-hibernate4
@@ -20,8 +27,14 @@
 	JSR 303
 	JSR250 @Resource
 	@Inject
-	clean install -Dmaven.test.skip
+	
+maven:	
+	clean install -Dmaven.test.skip ..
 	clean install -Dskiptests=true
+	//安装jar包入repos
+	mvn install:install-file -Dfile=E:\Java\libs\pinyin4j-2.5.0.jar -DgroupId=net.sourceforge.pinyin4j -DartifactId=pinyin4j -Dversion=2.5.0 
+	-Dpackaging=jar  -DgeneratePom=true -DcreateChecksum=true
+	
 	1.hibernate4取消继承HibernateDaoSupport,目的在于和spring解耦
 	
 cms-core -->dao
@@ -31,3 +44,5 @@ cms-system -->system
 cms-web -->webapp
 权限模块
 RBAC Role based access control	
+
+//密码： md5+盐

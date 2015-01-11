@@ -25,8 +25,8 @@ $(function(){
 		<jsp:include page="inc.jsp"></jsp:include>
 	</h3>
 	<div>
-		<input type="hidden" id="treePath" value="<%=request.getContextPath()%>/admin/user/userTree/${user.id}?isAdmin=${uAdmin}"/>
-		<div style="padding-left:10px;font-size:12px;">当前用户名称:${user.nickname }-->${uAdmin }</div>
+		<input type="hidden" id="treePath" value="<%=request.getContextPath()%>/admin/user/userTree/${user.id}?isAdmin=${isAdmin}"/>
+		<div style="padding-left:10px;font-size:12px;">当前用户名称:${user.nickname }-->${isAdmin }</div>
 		<div id="tree" class="ztree"></div>
 	</div>
 </div>

@@ -70,7 +70,7 @@ $(function(){
 		<tr>
 			<td class="rightTd">导航序号:</td>
 			<td>
-				<sf:input path="navOrder" size="50"/>
+				<%-- <sf:input path="navOrder" size="50"/> --%>
 			</td>
 		</tr>
 		<tr>

@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="273" key="DIALOG_WIDTH"/>
-		<item value="411" key="DIALOG_Y_ORIGIN"/>
-		<item value="1029" key="DIALOG_X_ORIGIN"/>
+		<item value="218" key="DIALOG_Y_ORIGIN"/>
+		<item value="492" key="DIALOG_X_ORIGIN"/>
 		<item value="400" key="DIALOG_HEIGHT"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="?" key="selection"/>
+		<item value="channel" key="selection"/>
 		<list key="findhistory">
-			<item value="?"/>
-			<item value="name"/>
-			<item value="roleIds"/>
-			<item value="items"/>
-			<item value="users"/>
-			<item value="commons-lang"/>
-			<item value="webmvc"/>
-			<item value="InitServlet"/>
+			<item value="channel"/>
+			<item value="post"/>
+			<item value="reset"/>
+			<item value="navOrder"/>
+			<item value="nav"/>
+			<item value="listChild"/>
+			<item value="tree"/>
+			<item value="mytree"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

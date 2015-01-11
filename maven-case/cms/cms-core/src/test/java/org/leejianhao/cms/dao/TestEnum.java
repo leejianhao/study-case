@@ -8,11 +8,12 @@ import java.util.List;
 import org.junit.Test;
 import org.leejianhao.basic.test.util.EntitiesHelper;
 import org.leejianhao.basic.util.EnumUtils;
+import org.leejianhao.cms.model.ChannelType;
 import org.leejianhao.cms.model.RoleType;
 
 public class TestEnum {
 
-	/*@Test
+	@Test
 	public void testEnumList() {
 		List<String> actuals = Arrays.asList("ROLE_ADMIN","ROLE_PUBLISH","ROLE_AUDIT");
 		List<String> expectes = EnumUtils.enum2Name(RoleType.class);
@@ -21,21 +22,30 @@ public class TestEnum {
 	
 	@Test
 	public void testEnumProp() {
+		
 		try {
-			String prop = "getName";
+			String prop="getName";
 			Method m = ChannelType.class.getMethod(prop, null);
 			System.out.println(m.invoke(ChannelType.NAV_CHANNEL, null));
 		} catch (SecurityException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (NoSuchMethodException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IllegalArgumentException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (InvocationTargetException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		
+		
 	}
 	
 	@Test
@@ -44,5 +54,4 @@ public class TestEnum {
 		System.out.println(EnumUtils.enumProp2OrdinalMap(ChannelType.class, "name"));
 		System.out.println(EnumUtils.enumProp2NameMap(ChannelType.class, "name"));
 	}
-	*/
 }

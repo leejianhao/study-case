@@ -6,4 +6,8 @@
 <typeInfo handle="=cms-user/src\/main\/java&lt;org.leejianhao.cms.service{IGroupService.java[IGroupService" modifiers="513" timestamp="1410608113410"/>
 <typeInfo handle="=cms-core/src\/main\/java&lt;org.leejianhao.cms.dao{IRoleDao.java[IRoleDao" modifiers="513" timestamp="1410609203713"/>
 <typeInfo handle="=cms-user/src\/main\/java&lt;org.leejianhao.cms.service{IRoleService.java[IRoleService" modifiers="513" timestamp="1410608090987"/>
+<typeInfo handle="=basic-hibernate/src\/main\/java&lt;org.leejianhao.basic.dao{IBaseDao.java[IBaseDao" modifiers="513" timestamp="1409470806298"/>
+<typeInfo handle="=basic-hibernate/src\/main\/java&lt;org.leejianhao.basic.dao{BaseDao.java[BaseDao" modifiers="1" timestamp="1411390120663"/>
+<typeInfo handle="=cms-core/src\/main\/java&lt;org.leejianhao.cms.dao{IChannelDao.java[IChannelDao" modifiers="513" timestamp="1411564874343"/>
+<typeInfo handle="=cms-core/src\/main\/java&lt;org.leejianhao.cms.dao{ChannelDao.java[ChannelDao" modifiers="1" timestamp="1411995051754"/>
 </typeInfoHistroy>

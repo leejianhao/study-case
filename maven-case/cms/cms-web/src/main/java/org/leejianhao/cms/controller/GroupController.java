@@ -1,9 +1,11 @@
 package org.leejianhao.cms.controller;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.inject.Inject;
 
+import org.leejianhao.cms.model.ChannelTree;
 import org.leejianhao.cms.model.Group;
 import org.leejianhao.cms.service.IGroupService;
 import org.leejianhao.cms.service.IUserService;
@@ -14,9 +16,13 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.leejianhao.cms.auth.AuthClass;
 
 @RequestMapping("/admin/group")
 @Controller
+@AuthClass
 public class GroupController {
 	
 	@Inject
@@ -81,5 +87,23 @@ public class GroupController {
 	public String clearGroupUsers(@PathVariable int id) {
 		groupService.deleteGroupUsers(id);
 		return "redirect:/admin/group/groups";
+	}
+	
+	@RequestMapping("/listChannels/{gid}")
+	public String listChannels(@PathVariable int gid, Model model) {
+		model.addAttribute(groupService.load(gid));
+		return "/group/listChannel";
+	}
+	
+	@RequestMapping("/groupTree/{gid}")
+	public @ResponseBody List<ChannelTree> groupTree(@PathVariable Integer gid) {
+		return groupService.generateGroupChannelTree(gid);
+	}
+	
+	@RequestMapping("/setChannels/{gid}")
+	public String setChannels(@PathVariable int gid, Model model) {
+		model.addAttribute(groupService.load(gid));
+		model.addAttribute("cids", groupService.listGroupChannelIds(gid));
+		return "/group/setChannel";
 	}
 }

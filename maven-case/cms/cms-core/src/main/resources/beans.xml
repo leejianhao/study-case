@@ -17,6 +17,14 @@
 	<!-- 设定Spring 去哪些包中找Annotation -->
 	<context:component-scan base-package="org.leejianhao" />
 
+	<bean id="ftlPath" class="java.lang.String">
+		<constructor-arg value="/ftl"/>
+	</bean>
+	
+	<bean id="outPath" class="java.lang.String">
+		<constructor-arg value="/jsp/template"/>
+	</bean>
+	
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="${jdbc.driverClassName}" />
@@ -84,7 +92,9 @@
 			<tx:method name="add*" propagation="REQUIRED"/>
 			<tx:method name="del*" propagation="REQUIRED"/>
 			<tx:method name="update*" propagation="REQUIRED"/>
+			<tx:method name="updateStatus" propagation="REQUIRED"/>
 			<tx:method name="save*" propagation="REQUIRED"/>
+			<tx:method name="clear*" propagation="REQUIRED"/>
 		</tx:attributes>
 	</tx:advice>
 </beans>

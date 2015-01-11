@@ -5,10 +5,14 @@ import java.util.List;
 import javax.inject.Inject;
 
 import org.leejianhao.basic.model.Pager;
+import org.leejianhao.cms.dao.IChannelDao;
 import org.leejianhao.cms.dao.IGroupDao;
 import org.leejianhao.cms.dao.IUserDao;
+import org.leejianhao.cms.model.Channel;
+import org.leejianhao.cms.model.ChannelTree;
 import org.leejianhao.cms.model.CmsException;
 import org.leejianhao.cms.model.Group;
+import org.leejianhao.cms.model.GroupChannel;
 import org.leejianhao.cms.model.User;
 import org.springframework.stereotype.Service;
 
@@ -31,9 +35,21 @@ public class GroupService implements IGroupService {
 	public void setUserDao(IUserDao userDao) {
 		this.userDao = userDao;
 	}
+	
+
+	public IChannelDao getChannelDao() {
+		return channelDao;
+	}
+
+	@Inject
+	public void setChannelDao(IChannelDao channelDao) {
+		this.channelDao = channelDao;
+	}
 
 	private IGroupDao groupDao;
 	private IUserDao userDao;
+	private IChannelDao channelDao;
+	
 	@Override
 	public void add(Group group) {
 		groupDao.add(group);
@@ -71,6 +87,44 @@ public class GroupService implements IGroupService {
 	@Override
 	public void deleteGroupUsers(int id) {
 		groupDao.deleteGroupUsers(id);
+	}
+
+	@Override
+	public void addGroupChannel(int gid, int cid) {
+		Group g = groupDao.load(gid);
+		Channel c = channelDao.load(cid);
+		if(c==null || g==null) throw new CmsException("要添加的组频道关联对象不存在");
+		groupDao.addGroupChannel(g, c);
+	}
+
+	@Override
+	public GroupChannel loadGroupChannel(int gid, int cid) {
+		return groupDao.loadGroupChannel(gid, cid);
+	}
+
+	@Override
+	public void clearGroupChannel(int gid) {
+		groupDao.clearGroupChannel(gid);
+	}
+
+	@Override
+	public void deleteGroupChannel(int gid, int cid) {
+		groupDao.deleteGroupChannel(gid, cid);
+	}
+
+	@Override
+	public List<Integer> listGroupChannelIds(int gid) {
+		return groupDao.listGroupChannelIds(gid);
+	}
+
+	@Override
+	public List<ChannelTree> generateGroupChannelTree(int gid) {
+		return groupDao.generateGroupChannelTree(gid);
+	}
+
+	@Override
+	public List<ChannelTree> generateUserChannelTree(int gid) {
+		return groupDao.generateUserChannelTree(gid);
 	}
 
 }

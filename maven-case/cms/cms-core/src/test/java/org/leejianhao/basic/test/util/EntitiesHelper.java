@@ -1,13 +1,14 @@
 package org.leejianhao.basic.test.util;
 
-import java.util.Date;
 import java.util.List;
 
 import junit.framework.Assert;
 
+import org.leejianhao.cms.model.Channel;
 import org.leejianhao.cms.model.Group;
 import org.leejianhao.cms.model.Role;
 import org.leejianhao.cms.model.User;
+
 
 public class EntitiesHelper {
 	private static User baseUser = new User(1,"admin1","123","admin1","admin1@admin.com","110",1);
@@ -72,5 +73,11 @@ public class EntitiesHelper {
 		}
 	}
 	
+	public static void assertChannel(Channel expected,Channel actual) throws Exception{
+		TestUtil.assertObjByClz(expected, actual, Channel.class, new String[]{"parent"});
+	}
 	
+	public static void assertUser(User expected) {
+		assertUser(expected, baseUser);
+	}
 }

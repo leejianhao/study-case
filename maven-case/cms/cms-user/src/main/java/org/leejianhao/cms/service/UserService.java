@@ -1,5 +1,6 @@
 package org.leejianhao.cms.service;
 
+import java.security.NoSuchAlgorithmException;
 import java.util.Date;
 import java.util.List;
 
@@ -7,6 +8,7 @@ import javax.inject.Inject;
 
 import org.apache.commons.lang.ArrayUtils;
 import org.leejianhao.basic.model.Pager;
+import org.leejianhao.basic.util.SecurityUtil;
 import org.leejianhao.cms.dao.IGroupDao;
 import org.leejianhao.cms.dao.IRoleDao;
 import org.leejianhao.cms.dao.IUserDao;
@@ -72,6 +74,11 @@ public class UserService implements IUserService {
 		User tu = userDao.loadByUsername(user.getUsername());
 		if(tu != null) throw new CmsException("添加的用户对象已经存在，不能添加");
 		user.setCreateDate(new Date());
+		try {
+			user.setPassword(SecurityUtil.md5(user.getUsername(),user.getPassword()));
+		} catch (Exception e) {
+			throw new CmsException("密码加密失败:"+e.getMessage());
+		}
 		userDao.add(user);
 		
 		//添加角色对象
@@ -174,5 +181,40 @@ public class UserService implements IUserService {
 	@Override
 	public List<User> listRoleUsers(int rid) {
 		return userDao.listRoleUsers(rid);
+	}
+	
+	@Override
+	public User login(String username, String password) {
+		User user = userDao.loadByUsername(username);
+		if(user == null) throw new CmsException("用户名或者密码不正确");
+		try {
+			if (!SecurityUtil.md5(username,password).equals(user.getPassword())) {
+				throw new CmsException("用户名或者密码不正确");
+			}
+		} catch (NoSuchAlgorithmException e) {
+			throw new CmsException("密码加密失败:"+e.getMessage());
+		}
+		if(user.getStatus()==0) throw new CmsException("用户已经停用，不能登录，请于管理员联系。");
+		return user;
+	}
+
+	@Override
+	public void update(User user) {
+		userDao.update(user);
+	}
+
+	@Override
+	public void updatePwd(int uid, String oldPwd, String newPwd) {
+		try {
+			User u = userDao.load(uid);
+			if(!SecurityUtil.md5(u.getUsername(), oldPwd).equals(u.getPassword())) {
+				throw new CmsException("原始密码输入不正确");
+			}
+			u.setPassword(SecurityUtil.md5(u.getUsername(), u.getPassword()));
+			userDao.update(u);
+		} catch (NoSuchAlgorithmException e) {
+			throw new CmsException("更新密码失败："+e.getMessage());
+		}
+		
 	}
 }

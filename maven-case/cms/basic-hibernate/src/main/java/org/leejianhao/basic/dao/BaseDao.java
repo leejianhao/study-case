@@ -70,6 +70,7 @@ public class BaseDao<T> implements IBaseDao<T> {
 	@Override
 	public void update(T t) {
 		getSession().update(t);
+		getSession().flush();
 	}
 
 	/* (non-Javadoc)
@@ -78,6 +79,7 @@ public class BaseDao<T> implements IBaseDao<T> {
 	@Override
 	public void delete(int id) {
 		getSession().delete(this.load(id));
+		getSession().flush();
 	}
 
 	/* (non-Javadoc)

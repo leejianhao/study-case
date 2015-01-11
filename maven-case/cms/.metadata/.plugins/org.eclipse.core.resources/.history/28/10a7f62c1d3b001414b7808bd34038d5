@@ -1,7 +1,0 @@
-package org.leejianhao.cms.filter;
-
-import java.util.logging.Filter;
-
-public class SystemContextFilter implements Filter {
-
-}
